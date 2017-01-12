@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="scripts/jquery-3.1.1.min.js"></script>
+    <script src="scripts/app.js"></script>
+</head>
+<body>
+
+
+    <button id="buttonshow">Show Persons</button>
+    <button id="buttonsearch">Search Persons</button>
+    <button id="buttonadd">Add Person</button>
+
+
+    <ul id="showall" hidden></ul>
+
+    <div id="searchDiv" hidden>
+        <label>Search</label><input type="text" id="searchinput" /><button id="btnsearchpersonarray">Search</button><br />
+
+        <ul id="foundperson" hidden></ul><button id="buttonlastsearch">Last Search</button>
+        <div type="text" id="promiseDiv"></div>
+    </div>
+
+    <div id="addpersoninput" hidden>
+
+        <label>First name</label><input type="text" id="fname" /><br />
+        <label>Last name</label><input type="text" id="lname" /><br />
+        <label>Age</label><input type="text" id="age" /><br />
+        <label>City</label><input type="text" id="city" /><br />
+        <button id="add">Add</button>
+
+    </div>
+
+
+
+</body>
+</html>
